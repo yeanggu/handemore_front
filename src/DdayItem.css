@@ -1,0 +1,70 @@
+.oneddayItem{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.oneddayContent{
+    min-height:100px;
+    background-color: #DAE3F3;
+    display:flex;
+    align-items:center;
+}
+/* Dday 내용 */
+.oneddaytitletxt{
+    width:250px;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    background-color:transparent;
+    border: 0;
+    display: flex;
+    /* height: auto; */
+}
+/* Dday 남은 일 */
+.oneddayDate{
+    width: 100px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    font-size: 22px;
+    font-weight: 700;
+}
+/* 완료, 수정완료 버튼 공간 */
+.oneddayBtn{
+    width: 50px;
+}
+/* 완료, 수정완료 버튼 */
+.ddaySubmitBtn{
+    margin-left: 5px;
+    background-color: #8FABDB;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+/* ddaypicker */
+.ddayDate{
+    width:100px;
+    background-color: #DAE3F3;
+    border:0px;
+    text-align: right;
+    font-size: 17px;
+}
+.ddaypicker{
+    width:100px;
+    border:0px;
+    background-color: #DAE3F3;
+    text-align: right;
+    font-size: 17px;
+}
+/* ddaypicker 창 커스텀 */
+.ddaypickerHead{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+}
+.ddaypickerBtn:hover{
+    cursor: pointer;
+}

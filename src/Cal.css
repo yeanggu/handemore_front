@@ -1,0 +1,169 @@
+/* 캘린더 */
+ .Calcontainer{    
+    width:100%;    
+    overflow-y: auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+} 
+/* 스크롤바 설정*/
+.Calcontainer::-webkit-scrollbar{
+    width: 7px;
+}
+/* 스크롤바 막대 설정*/
+.Calcontainer::-webkit-scrollbar-thumb{
+    height: 17%;
+    background-color: #a6bfe9;
+    /* 스크롤바 둥글게 설정    */
+    border-radius: 10px;    
+}
+/* 스크롤바 뒷 배경 설정*/
+.dCalcontainer::-webkit-scrollbar-track{
+    background-color: rgba(0,0,0,0);
+}
+
+.CalContent{
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.react-calendar{
+    width: 800px;
+    padding: 15px;
+    border: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #DAE3F3;
+    font-size: 22px;
+}
+.react-calendar button:enabled:hover, .react-calendar__navigation button:enabled:focus {
+    background-color: #8FABDB;
+    border-radius: 10px;
+}
+/* 캘린더 상단 년월 부분 */
+.react-calendar__navigation__label__labelText{
+    font-size: 25px;
+    font-weight: bold;
+}
+.react-calendar__navigation button:disabled {
+    background-color: #DAE3F3;
+    color:black;
+}
+/* 캘린더 상단 화살표 버튼 */
+.react-calendar__navigation button{
+    color: #162FAE;
+}
+/* 요일 부분 글자 밑줄 없음 */
+.react-calendar__month-view__weekdays abbr{
+    text-decoration: none;
+}
+/* 날짜 버튼 */
+.react-calendar__tile{
+    background: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 16px;
+}
+/* 날짜 버튼에 색 효과 없애기 */
+.react-calendar__tile--now, .react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus{
+    background: none;
+    color:black;
+}
+/* 오늘 날짜 부분 */
+.react-calendar__tile--now abbr{
+    background-color: #8ec5fd;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+/* 날짜 부분 링크 제외하고는 hover시 화살표 기본 모양 */
+.react-calendar__month-view button:enabled:hover{
+    cursor: default;
+}
+/* 아이콘 링크 표시 부분 */
+.calLinks{
+    min-width: 20px;
+    min-height: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+/* 각각 아이콘 링크 동그라미 부분 */
+.calIconTodo, .calIconOX, .calIconStudy{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin: 1px;
+}
+.calIconTodo {
+    background-color: #799AD5;
+}
+.calIconOX {
+    background-color: rgb(255, 255, 182);
+}
+.calIconStudy {
+    background-color: plum;
+}
+.calNoIcon {
+    width: 20px;
+    height: 20px;
+}
+.calIconImage {
+    color: #162FAE;
+    width:14px;
+    height:15px;
+    display:flex; 
+}
+/* D-Day 빨간 동그라미 표시 */
+.calDdayFlag abbr{
+    width: 25px;
+    height: 25px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50%;
+    border:solid 2px;
+    border-color: red;
+    font-weight: bold;
+}
+/* D-Day 링크 */
+.calLinkDday{
+    text-decoration: none;
+}
+.calIconDday {
+   width:30px;
+   height:25px;
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   font-size: 6px;
+   font-weight: bolder;
+}
+/* TODAY 버튼*/
+.calToday{
+    display:flex;
+    align-items:center;
+    justify-content: right;
+    border: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #DAE3F3;
+}
+#calTodayBtn{
+    background-color: #8FABDB;
+    border: 0px;
+    border-radius: 5px;
+    margin:10px;
+}
+#calTodayBtn:hover{
+    cursor: pointer;   
+}

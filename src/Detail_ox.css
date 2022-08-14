@@ -1,0 +1,243 @@
+/* 스크롤바 설정*/
+.ox_Detail::-webkit-scrollbar{
+    width: 7px;
+}
+
+/* 스크롤바 막대 설정*/
+.ox_Detail::-webkit-scrollbar-thumb{
+    height: 17%;
+    background-color: #faf5ae;
+    /* 스크롤바 둥글게 설정    */
+    border-radius: 10px;    
+}
+
+/* 스크롤바 뒷 배경 설정*/
+.ox_Detail::-webkit-scrollbar-track{
+    background-color: rgba(0,0,0,0);
+}
+
+.ox_detail_content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px 10px 0;
+    width: 430px;
+}
+
+.ox_detail_titlebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    background-color:#feffd3;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.ox_detail_date{
+    width:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ox_Detail{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background-color:#feffd3;
+    overflow-y: scroll;
+}
+
+.ox_detailbox{
+    padding:20px 0 20px 0;
+    width: 100%;
+    height: 350px;
+}
+
+.ox_detail_innerspace{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color:#feffd3;
+}
+
+.ox_detail{
+    display: flex;
+}
+
+
+.ox_detail_xicon_box{
+    width: 25px;
+    height: 25px;
+    margin: 10px 0 10px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#eeea97;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.ox_detail_xiconbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b4af43;
+}
+
+.ox_detail_inputform{
+    width: 320px;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:white;
+}
+
+.ox_detail_input {
+    font-size: 16px;
+    background-color:transparent;
+    border:0px transparent solid;
+    margin: 7px;
+    width: 90%;
+    height: 40px;
+}
+
+.ox_detail_check {
+    background-color:transparent;
+    border:0px transparent solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+.ox_detail_checkicon{
+    width: 25px;
+    height: 25px;
+    color : #e2db52;
+}
+
+.ox_detailicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ox_detail_iconchangebox{
+    width: 40px;
+    height: 40px;
+    margin: 10px 7px 10px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fcf8b2;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.ox_detail_iconchange{
+    width: 25px;
+    height: 25px;
+    color: #cec62f;
+}
+
+.ox_detail_listbox{
+    width: 320px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:white;
+}
+
+.ox_detailcompleted{
+    width: 270px;
+    height: auto;
+    color:rgb(177, 177, 177);
+    text-decoration: line-through;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.ox_detailstate{
+    width: 270px;
+    height: auto;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.ox_detail_peniconbox {
+    width: 23px;
+    height: 23px;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(209, 209, 209);
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.ox_detail_penicon {
+    width: 13px;
+    height: 13px;
+    color:rgb(97, 97, 105);
+}
+
+.ox_detail_button {
+    margin: 7px 1px;
+}
+
+.ox_detail_plusbox{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin : 50px 143px 0 0;
+    justify-content: center;
+    align-items: center;
+    background-color:#fffbb3;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.ox_detail_plusicon{
+    width: 30px;
+    height: 30px;
+    color : #dad361;
+}
+
+.ox_detail_trashbox{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin : 5px 5px 5px 0;
+    justify-content: center;
+    align-items: center;
+    background-color:#faf6ab;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.ox_detail_trash{
+    width: 20px;
+    height: 30px;
+    color:#d4d07e;
+}

@@ -1,0 +1,259 @@
+/* 스크롤바 설정*/
+.Todo::-webkit-scrollbar{
+    width: 7px;
+}
+
+/* 스크롤바 막대 설정*/
+.Todo::-webkit-scrollbar-thumb{
+    height: 17%;
+    background-color: #a6bfe9;
+    /* 스크롤바 둥글게 설정    */
+    border-radius: 10px;    
+}
+
+/* 스크롤바 뒷 배경 설정*/
+.Todo::-webkit-scrollbar-track{
+    background-color: rgba(0,0,0,0);
+}
+
+
+.whiteContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.all_todo{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+}
+
+.todo_datebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    background-color:#DAE3F3;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.todo_date{
+    width:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo_movedate{
+    font-size: 20px;
+    color:#202d70;
+    cursor:pointer;
+}
+
+.Todo{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 430px;
+    background-color:#DAE3F3;
+    overflow-y: scroll;
+}
+
+.todobox{
+    justify-content: center;
+    align-items: center;
+    padding:20px 0 20px 0;
+    width: 100%;
+    height: 390px;
+}
+
+.todo_innerspace{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color:#DAE3F3;
+}
+
+.todo{
+    display: flex;
+}
+
+
+.todo_xicon_box{
+    width: 25px;
+    height: 25px;
+    margin: 10px 10px 10px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#c4d5f0;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.todo_xiconbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #48538b;
+}
+
+.todo_inputform{
+    width: 420px;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:white;
+}
+
+.todo_input {
+    font-size: 16px;
+    background-color:transparent;
+    border:0px transparent solid;
+    margin: 7px;
+    width: 90%;
+    height: 40px;
+}
+
+.todo_check {
+    background-color:transparent;
+    border:0px transparent solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+.todo_checkicon{
+    width: 25px;
+    height: 25px;
+    color : #5d72d6;
+}
+
+.todoicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+.todo_iconchangebox{
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 10px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#c4d5f0;
+    border-radius:35px;
+}
+
+.todo_iconchange{
+    width: 25px;
+    height: 25px;
+    color: #48538b;
+}
+
+.todo_listbox{
+    width: 420px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color:white;
+}
+
+.todocompleted{
+    width:380px;
+    height: auto;
+    color:rgb(177, 177, 177);
+    text-decoration: line-through;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+
+.todostate{
+    width: 380px;
+    height: auto;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+
+.todo_peniconbox {
+    width: 23px;
+    height: 23px;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(209, 209, 209);
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.todo_penicon {
+    width: 13px;
+    height: 13px;
+    color:rgb(97, 97, 105);
+}
+
+.todo_button {
+    margin: 7px 1px;
+}
+
+.todo_plusbox{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin : 50px 200px 0 0;
+    justify-content: center;
+    align-items: center;
+    background-color:#c6d6f1;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.todo_plusicon{
+    width: 30px;
+    height: 30px;
+    color : #7685d3;
+}
+
+.todo_trashbox{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin : 5px 5px 5px 0;
+    justify-content: center;
+    align-items: center;
+    background-color:#a2afd1;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.todo_trash{
+    width: 20px;
+    height: 30px;
+    color:#d4def8;
+}

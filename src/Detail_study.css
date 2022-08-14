@@ -1,0 +1,287 @@
+/* 스크롤바 설정*/
+.study_Detail::-webkit-scrollbar{
+    width: 7px;
+}
+
+/* 스크롤바 막대 설정*/
+.study_Detail::-webkit-scrollbar-thumb{
+    height: 17%;
+    background-color: #d2c7fc;
+    /* 스크롤바 둥글게 설정    */
+    border-radius: 10px;    
+}
+
+/* 스크롤바 뒷 배경 설정*/
+.study_Detail::-webkit-scrollbar-track{
+    background-color: rgba(0,0,0,0);
+}
+
+.detail_historybox{
+    display: flex;
+    width: 40px;
+    height: 37px;
+    margin : 8px;
+    justify-content: center;
+    align-items: center;
+    background-color:#b8ccf0;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.detail_history{
+    width: 17px;
+    height: 20px;
+    color:#193a72;
+}
+
+.detail_space{
+    width: 35px;
+    height: 35px;
+}
+
+.all_detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail_titlebox{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 870px;
+    height: auto;
+    background-color:#e9f1ff;
+}
+
+.detail_titlebox:nth-child(1){
+    margin-bottom: 10px;
+}
+
+.study_detail_content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 10px 5px;
+    width: 430px;
+}
+
+.study_detail_titlebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    background-color:#ECE7FF;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.study_detail_date{
+    width:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.study_Detail{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background-color:#ECE7FF;
+    overflow-y: scroll;
+}
+
+.study_detailbox{
+    padding:20px 0 20px 0;
+    width: 100%;
+    height: 350px;
+}
+
+.study_detail_innerspace{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color:#ECE7FF;
+}
+
+.study_detail{
+    display: flex;
+}
+
+
+.study_detail_xicon_box{
+    width: 25px;
+    height: 25px;
+    margin: 10px 0 10px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#cdc2f8;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.study_detail_xiconbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #897ac5;
+}
+
+.study_detail_inputform{
+    width: 320px;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:white;
+}
+
+.study_detail_input {
+    font-size: 16px;
+    background-color:transparent;
+    border:0px transparent solid;
+    margin: 7px;
+    width: 90%;
+    height: 40px;
+}
+
+.study_detail_check {
+    background-color:transparent;
+    border:0px transparent solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+.study_detail_checkicon{
+    width: 25px;
+    height: 25px;
+    color : #927edb;
+}
+
+.study_detailicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.study_detail_iconchangebox{
+    width: 40px;
+    height: 40px;
+    margin: 10px 7px 10px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#dcd4fc;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.study_detail_iconchange{
+    width: 25px;
+    height: 25px;
+    color: #9083c2;
+}
+
+.study_detail_listbox{
+    width: 320px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:white;
+}
+
+.study_detailcompleted{
+    width: 270px;
+    height: auto;
+    color:rgb(177, 177, 177);
+    text-decoration: line-through;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.study_detailstate{
+    width: 270px;
+    height: auto;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.study_detail_peniconbox {
+    width: 23px;
+    height: 23px;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(209, 209, 209);
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.study_detail_penicon {
+    width: 13px;
+    height: 13px;
+    color:rgb(97, 97, 105);
+}
+
+.study_detail_button {
+    margin: 7px 1px;
+}
+
+.study_detail_plusbox{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin : 50px 143px 0 0;
+    justify-content: center;
+    align-items: center;
+    background-color:#e0d7ff;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.study_detail_plusicon{
+    width: 30px;
+    height: 30px;
+    color : #b19ff0;
+}
+
+.study_detail_trashbox{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin : 5px 5px 5px 0;
+    justify-content: center;
+    align-items: center;
+    background-color:#d7d0f3;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.study_detail_trash{
+    width: 20px;
+    height: 30px;
+    color:#b2a8db;
+}

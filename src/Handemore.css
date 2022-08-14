@@ -1,0 +1,83 @@
+*{
+    font-family:GowunDodum-Regular;
+}
+.container {
+    display:flex;
+}
+.handemore {
+    background-color:#E1ECFF;
+    flex-grow:1;
+    flex-direction:column;
+}
+.innerSpace {
+    width:100%;
+    height:70px;
+}
+.content {
+    display:flex;
+    justify-content: center;
+}
+
+.contentBox {
+    display:flex;
+    flex-direction: column;
+    width:80%;
+}
+.nav {
+    background-color:#E1ECFF;
+    width:100%;
+    height:70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+.navItem {
+    width:600px;
+    text-align:right;
+    color:#799AD5;
+    font-size:25px;
+    font-weight:bold;
+    margin-right:10px;
+}
+.icons {
+    display:flex;
+    flex-direction: row;
+}
+.icon {
+    background-color:#C4D3FC;
+    box-shadow:2px 2px 4px gray;
+    width:70px;
+    height:70px;
+    border-radius:35px;
+    margin:20px 10px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.iconImage {
+    color: #162FAE;
+    width:50%;
+    height:80%;
+    display:flex; 
+}
+
+.whiteContent {
+    background-color:white;
+    box-shadow:5px 6px 6px gray;
+    width:100%;
+    height:700px;
+    border-radius:35px;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 선택된 현재 Link 색상 변경 */
+.active .icon{
+    background-color:white;
+}
+
+.active .iconImage{
+    color:#95abeb;
+}

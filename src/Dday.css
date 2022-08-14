@@ -1,0 +1,53 @@
+.ddayContent {
+    width:100%;
+    height:700px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family:GowunDodum-Regular;
+}
+/* dday 목록 */
+.ddayList{
+    width:100%;
+    margin-top: 20px;
+    overflow-y: auto;
+}
+/* 스크롤바 설정*/
+.ddayList::-webkit-scrollbar{
+    width: 7px;
+}
+/* 스크롤바 막대 설정*/
+.ddayList::-webkit-scrollbar-thumb{
+    height: 17%;
+    background-color: #a6bfe9;
+    /* 스크롤바 둥글게 설정    */
+    border-radius: 10px;    
+}
+/* 스크롤바 뒷 배경 설정*/
+.ddayList::-webkit-scrollbar-track{
+    background-color: rgba(0,0,0,0);
+}
+.onedday{
+    margin:20px 0px 20px 20px;    
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.oneddayCheckBox{
+    width: 50px;
+}
+.ddaycheckbox{
+    width:30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.ddayBtn{
+    margin:15px;
+    padding: 3px 15px;
+    background-color: #8FABDB;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+}

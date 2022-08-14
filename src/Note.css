@@ -1,0 +1,250 @@
+/* 스크롤바 설정*/
+.Note::-webkit-scrollbar{
+    width: 7px;
+}
+
+/* 스크롤바 막대 설정*/
+.Note::-webkit-scrollbar-thumb{
+    height: 17%;
+    background-color: #a6bfe9;
+    /* 스크롤바 둥글게 설정    */
+    border-radius: 10px;    
+}
+
+/* 스크롤바 뒷 배경 설정*/
+.Note::-webkit-scrollbar-track{
+    background-color: rgba(0,0,0,0);
+}
+
+.all_note{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.note_datebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    background-color:#DAE3F3;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.note_date{
+    width:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note_movedate{
+    font-size: 20px;
+    color:#202d70;
+    cursor:pointer;
+}
+
+.Note{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 430px;
+    background-color:#DAE3F3;
+    overflow-y: scroll;
+}
+
+.notebox{
+    padding:20px 0 20px 0;
+    width: 100%;
+    height: 390px;
+}
+
+.note_innerspace{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color:#DAE3F3;
+}
+
+.note{
+    display: flex;
+    /* justify-content: center; */
+    margin: 0 0 0 32px;
+    align-items: center;
+}
+
+
+.note_xicon_box{
+    width: 25px;
+    height: 25px;
+    margin: 10px 0 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#c4d5f0;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.note_xiconbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #48538b;
+}
+
+.note_inputform{
+    width: 420px;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:white;
+}
+
+.note_input {
+    font-size: 16px;
+    background-color:transparent;
+    border:0px transparent solid;
+    margin: 7px;
+    width: 90%;
+    height: 40px;
+}
+
+.note_check {
+    background-color:transparent;
+    border:0px transparent solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+.note_checkicon{
+    width: 25px;
+    height: 25px;
+    color : #5d72d6;
+}
+
+.noteicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note_iconchangebox{
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 10px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#c4d5f0;
+    border-radius:35px;
+}
+
+.note_iconchange{
+    width: 25px;
+    height: 25px;
+    color: #48538b;
+}
+
+.note_listbox{
+    width: 420px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color:white;
+}
+
+.notecompleted{
+    width: 370px;
+    height: auto;
+    color:rgb(177, 177, 177);
+    text-decoration: line-through;
+    margin: 7px;
+    cursor:pointer;
+}
+
+.notestate{
+    width: 370px;
+    height: auto;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+
+.note_peniconbox {
+    width: 23px;
+    height: 23px;
+    margin: 15px 7px 15px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(209, 209, 209);
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.note_penicon {
+    width: 13px;
+    height: 13px;
+    color:rgb(97, 97, 105);
+}
+
+.note_button {
+    margin: 7px 1px;
+}
+
+.note_plusbox{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin : 50px 180px 0 0;
+    justify-content: center;
+    align-items: center;
+    background-color:#c6d6f1;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.note_plusicon{
+    width: 30px;
+    height: 30px;
+    color : #7685d3;
+}
+
+.note_trashbox{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin : 5px 5px 5px 0;
+    justify-content: center;
+    align-items: center;
+    background-color:#a2afd1;
+    border-radius:35px;
+    cursor:pointer;
+}
+
+.note_trash{
+    width: 20px;
+    height: 30px;
+    color:#d4def8;
+}
